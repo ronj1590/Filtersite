@@ -1,0 +1,220 @@
+.home{
+    height: 100vh;
+    width: 100vw;
+    /* border: 1px solid red; */
+    margin: 0px;
+    background-color: #F5F5F5;
+}
+.User{
+    width: 15vw;
+    height: 25vh;
+    /* border: 1px solid orange; */
+    position: relative;
+    float: left;
+    background-color: #383838;
+}
+.MetricBox{
+    /* border: 1px solid black; */
+    height: 25vh;
+    width: 84vw;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    display: flex;
+}
+.SidePanel{
+    height: 74vh;
+    width: 15vw;
+    position: relative;
+    /* border: 1px solid blue; */
+    background-color: #383838;
+    float: left;
+}
+.DropDown{
+    height: 74vh;
+    width: 84vw;
+    position: relative;
+    border: 1px solid green;
+    float: right;
+}
+.OneMetricBox{
+    /* border: 1px solid red; */
+    height: 60%;
+    width: 22%;
+    float: left;
+    position: relative;
+    margin-right: 10px;
+    border-radius: 8px;
+    background-color: white;
+    filter: drop-shadow(2px 2px 2px #D3D3D3);
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    justify-content: center;
+}
+.MetricBoxImage {
+    height: 70px;
+    width: 70px;
+    background-color: red;
+    border-radius: 3px;
+    margin-left: 15px;
+    margin-top: -25px;
+    float: left;
+    filter: drop-shadow(2px 2px 2px #D3D3D3);
+}
+.MetricBoxName {
+/* border: 1px solid blue; */
+text-align: left;
+  color: #989898;
+  font-size: 11px;
+  float: left;
+  position: relative;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.MetricBoxValue{
+    /* border: 1px solid red;  */
+    font-size: 13px;
+    text-align: right;
+    float: left;
+    position: relative;
+    justify-content: center;
+}
+
+.Company{
+    /* border: 1px solid red; */
+    margin: 10px;
+    height: 50px;
+    padding-left: 10px;
+    border: 0.5px solid #808080;
+    border-radius: 10px;
+}
+.companyName{
+    color: white;
+    font-size: 14px;
+}
+.companyValue{
+    color: lightblue;
+    font-size: 10px;
+}
+
+.employee {
+border: 1px solid blue;
+height: 50px;
+width: 50px;
+border-radius: 50%;
+}
+.employeeName{
+border: 1px solid red;
+height: 50px;
+}
+.employeeValue{
+border: 1px solid black;
+height: 50px; 
+}
+
+.companyList , .countryList , .cityList , .employeeList {
+    /* border: 1px solid red; */
+    height: 60vh;
+    width: 80vw;
+    position: relative;
+    float: right;
+    list-style-type: none;
+    border-radius: 10px;
+    background-color: white;
+    filter: drop-shadow(2px 2px 2px #D3D3D3);
+    margin-top: 30px;
+    margin-right: 2%;
+    padding-top: 50px;
+}
+
+.companyList .ClassListItems , .countryList .ClassListItems , .cityList .ClassListItems{
+    /* border: 1px solid green;  */
+    color: #383838;
+    border-bottom: 1px solid #989898;
+    width: 20vw;
+    margin: 20px;
+    padding-left: 10px;
+    vertical-align: middle;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 300;
+    cursor: pointer
+}
+.companyList .dropImage{
+    height: 70px;
+    width: 70px;
+    background-color: blue;
+    filter: drop-shadow(2px 2px 2px #D3D3D3);
+    border-radius: 3px;
+    margin-left: 20px;
+    margin-top: -70px;
+    margin-bottom: 20px;
+    position: relative;
+    float: left;
+    cursor: pointer
+}
+.countryList .dropImage{
+    height: 70px;
+    width: 70px;
+    background-color: red;
+    filter: drop-shadow(2px 2px 2px #D3D3D3);
+    border-radius: 3px;
+    margin-left: 20px;
+    margin-top: -70px;
+    margin-bottom: 20px;
+    position: relative;
+    float: left;
+    cursor: pointer
+}
+.cityList .dropImage{
+    height: 70px;
+    width: 70px;
+    background-color: green;
+    filter: drop-shadow(2px 2px 2px #D3D3D3);
+    border-radius: 3px;
+    margin-left: 20px;
+    margin-top: -70px;
+    margin-bottom: 20px;
+    position: relative;
+    float: left;
+}
+
+.employeeList .dropImage{
+    height: 70px;
+    width: 70px;
+    background-color: yellow;
+    filter: drop-shadow(2px 2px 2px #D3D3D3);
+    border-radius: 3px;
+    margin-left: 20px;
+    margin-top: -70px;
+    margin-bottom: 20px;
+    position: relative;
+    float: left;
+}
+.companyList .listHead {
+    float: left;
+    position: relative;
+    margin-top: -20px;
+    margin-left: 10px;
+
+}
+.countryList .listHead {
+    float: left;
+    position: relative;
+    margin-top: -20px;
+    margin-left: 10px;
+
+}
+.cityList  .listHead {
+    float: left;
+    position: relative;
+    margin-top: -20px;
+    margin-left: 10px;
+}
+.employeeList  .listHead {
+    float: left;
+    position: relative;
+    margin-top: -20px;
+    margin-left: 10px;
+}
